@@ -11,9 +11,9 @@ function Header(props) {
           <h1>My Meals</h1>
           <div style={{ display: "flex", alignItems: "center" }}>
             <HeaderCartButton onclick={props.onShowCart} />
-            <button className={classes.Track} onClick={props.onOrder}>
+           {/* <button className={classes.Track} onClick={props.onOrder}>
               Orders
-            </button>
+           </button>*/}
           </div>
         </header>
         <div className={classes["main-image"]}>
